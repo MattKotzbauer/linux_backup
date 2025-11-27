@@ -1,0 +1,225 @@
+[Snapshot]
+is-maximized=false
+window-height=640
+window-width=800
+
+[calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=false
+window-size=(360, 491)
+word-size=64
+
+[control-center]
+last-panel='background'
+window-state=(840, 640, false)
+
+[deja-dup]
+backend='google'
+prompt-check='2025-10-27T19:00:29.747713Z'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Fuji_san_by_amaral.png'
+picture-uri-dark='file:///usr/share/backgrounds/Fuji_san_by_amaral.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/datetime]
+automatic-timezone=true
+
+[desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('xkb', 'us+intl')]
+sources=[('xkb', 'us'), ('xkb', 'us+intl')]
+xkb-options=@as []
+
+[desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='Yaru-magenta-dark'
+icon-theme='Yaru-magenta'
+
+[desktop/notifications]
+application-children=['firefox-firefox', 'gnome-power-panel', 'snapd-desktop-integration-snapd-desktop-integration', 'godot', 'apport-gtk', 'anki', 'org-gnome-dejadup', 'org-wezfurlong-wezterm', 'org-gnome-eog', 'org-gnome-nautilus', 'proton-vpn-app-gtk', 'sonic-visualiser']
+
+[desktop/notifications/application/anki]
+application-id='anki.desktop'
+
+[desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/godot]
+application-id='godot.desktop'
+
+[desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
+
+[desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-wezfurlong-wezterm]
+application-id='org.wezfurlong.wezterm.desktop'
+
+[desktop/notifications/application/proton-vpn-app-gtk]
+application-id='proton.vpn.app.gtk.desktop'
+
+[desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
+
+[desktop/notifications/application/sonic-visualiser]
+application-id='sonic-visualiser.desktop'
+
+[desktop/peripherals/keyboard]
+numlock-state=false
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Fuji_san_by_amaral.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/wm/keybindings]
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+
+[evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=true
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=148
+sizing-mode='automatic'
+window-ratio=(1.0184873949579831, 0.71258907363420432)
+
+[evolution-data-server]
+migrated=true
+
+[file-roller/listing]
+list-mode='as-folder'
+name-column-width=65
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[mutter]
+edge-tiling=false
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[nautilus/icon-view]
+default-zoom-level='large'
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/matt/Pictures/Screenshots'
+
+[portal/filechooser/snap.firefox]
+last-folder-path='/home/matt/school/189_project'
+
+[settings-daemon/plugins/color]
+night-light-enabled=false
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Ctrl><Shift>h'
+command='copyq toggle'
+name='CopyQ'
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='nothing'
+lid-close-battery-action='nothing'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[shell]
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'aseprite.desktop', 'godot.desktop', 'org.wezfurlong.wezterm.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='46.0'
+
+[shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+tiling-popup-all-workspace=true
+
+[shell/world-clocks]
+locations=@av []
+
+[terminal/legacy/keybindings]
+next-tab='<Primary>Tab'
+prev-tab='<Primary><Shift>Tab'

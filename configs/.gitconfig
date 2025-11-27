@@ -1,0 +1,17 @@
+[user]
+	email = mkotzbauer52@gmail.com
+	name = Matt Kotzbauer
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	light = false
+	side-by-side = true
+	line-numbers = true
