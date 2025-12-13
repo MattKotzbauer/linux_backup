@@ -21,7 +21,8 @@ gnome/
   background.dconf        # wallpaper settings
 
 backgrounds/
-  Fuji_san_by_amaral.png  # wallpaper
+  Fuji_san_by_amaral.png  # desktop wallpaper
+  background2.png         # kitty terminal background
 
 scripts/
   restore.sh              # automated restore
@@ -59,5 +60,6 @@ gsettings set org.gnome.desktop.background picture-uri "file://$HOME/Pictures/Wa
 
 ## Notes
 
+- Kitty terminal uses `background2.png` as a background image (with 0.95 tint)
 - Gmail CLI setup at `~/thing/gmail_cli/` (requires separate OAuth setup)
 - Editor: nvim (EDITOR and VISUAL env vars)
