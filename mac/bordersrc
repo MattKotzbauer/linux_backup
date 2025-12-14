@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# JankyBorders config - dark bluish purple theme
+
+borders active_color=0xff5a4fcf \
+        inactive_color=0x00000000 \
+        width=5.0 \
+        style=round \
+        hidpi=on

@@ -1,0 +1,138 @@
+# ==============================================================================
+# AEROSPACE CONFIGURATION - Matching tmux/nvim hjkl style
+# ==============================================================================
+
+# Start AeroSpace at login
+start-at-login = true
+
+# Normalizations (recommended)
+enable-normalization-flatten-containers = true
+enable-normalization-opposite-orientation-for-nested-containers = true
+
+# Mouse follows focus
+on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+
+# Gaps between windows
+[gaps]
+inner.horizontal = 8
+inner.vertical = 8
+outer.left = 8
+outer.bottom = 8
+outer.top = 8
+outer.right = 8
+
+# ==============================================================================
+# MAIN MODE BINDINGS
+# ==============================================================================
+[mode.main.binding]
+
+# ------------------------------------------------------------------------------
+# FOCUS NAVIGATION - Cmd+hjkl (Alt reserved for tmux)
+# ------------------------------------------------------------------------------
+cmd-h = 'focus left'
+cmd-j = 'focus down'
+cmd-k = 'focus up'
+cmd-l = 'focus right'
+
+# ------------------------------------------------------------------------------
+# MOVE WINDOWS - Cmd+Shift+hjkl
+# ------------------------------------------------------------------------------
+cmd-shift-h = 'move left'
+cmd-shift-j = 'move down'
+cmd-shift-k = 'move up'
+cmd-shift-l = 'move right'
+
+# ------------------------------------------------------------------------------
+# WORKSPACE SWITCHING - Cmd+1-9
+# ------------------------------------------------------------------------------
+cmd-1 = 'workspace 1'
+cmd-2 = 'workspace 2'
+cmd-3 = 'workspace 3'
+cmd-4 = 'workspace 4'
+cmd-5 = 'workspace 5'
+cmd-6 = 'workspace 6'
+cmd-7 = 'workspace 7'
+cmd-8 = 'workspace 8'
+cmd-9 = 'workspace 9'
+
+# ------------------------------------------------------------------------------
+# MOVE WINDOW TO WORKSPACE - Cmd+Shift+1-9
+# ------------------------------------------------------------------------------
+cmd-shift-1 = 'move-node-to-workspace 1'
+cmd-shift-2 = 'move-node-to-workspace 2'
+cmd-shift-3 = 'move-node-to-workspace 3'
+cmd-shift-4 = 'move-node-to-workspace 4'
+cmd-shift-5 = 'move-node-to-workspace 5'
+cmd-shift-6 = 'move-node-to-workspace 6'
+cmd-shift-7 = 'move-node-to-workspace 7'
+cmd-shift-8 = 'move-node-to-workspace 8'
+cmd-shift-9 = 'move-node-to-workspace 9'
+
+# ------------------------------------------------------------------------------
+# LAYOUT CONTROLS
+# ------------------------------------------------------------------------------
+# Toggle between horizontal/vertical split
+cmd-slash = 'layout tiles horizontal vertical'
+
+# Toggle floating
+cmd-shift-space = 'layout floating tiling'
+
+# Fullscreen toggle
+cmd-o = 'fullscreen'
+
+# ------------------------------------------------------------------------------
+# RESIZE
+# ------------------------------------------------------------------------------
+cmd-minus = 'resize smart -50'
+cmd-equal = 'resize smart +50'
+
+# Fine-grained resize in resize mode
+cmd-r = 'mode resize'
+
+# ------------------------------------------------------------------------------
+# CLOSE WINDOW
+# ------------------------------------------------------------------------------
+cmd-w = 'close'
+
+# ------------------------------------------------------------------------------
+# NEXT/PREVIOUS WORKSPACE
+# ------------------------------------------------------------------------------
+cmd-n = 'workspace next'
+cmd-p = 'workspace prev'
+
+# Tab-like cycling through windows in current workspace
+cmd-tab = 'focus-back-and-forth'
+
+# ------------------------------------------------------------------------------
+# MONITOR NAVIGATION - Cmd+Ctrl+hjkl
+# ------------------------------------------------------------------------------
+cmd-ctrl-h = 'focus-monitor left'
+cmd-ctrl-j = 'focus-monitor down'
+cmd-ctrl-k = 'focus-monitor up'
+cmd-ctrl-l = 'focus-monitor right'
+
+# Move window to monitor
+cmd-ctrl-shift-h = 'move-node-to-monitor left'
+cmd-ctrl-shift-j = 'move-node-to-monitor down'
+cmd-ctrl-shift-k = 'move-node-to-monitor up'
+cmd-ctrl-shift-l = 'move-node-to-monitor right'
+
+# ==============================================================================
+# RESIZE MODE
+# ==============================================================================
+[mode.resize.binding]
+h = 'resize width -50'
+j = 'resize height +50'
+k = 'resize height -50'
+l = 'resize width +50'
+esc = 'mode main'
+enter = 'mode main'
+
+# ==============================================================================
+# WORKSPACE TO MONITOR ASSIGNMENT (optional)
+# ==============================================================================
+# Uncomment and adjust if you have multiple monitors
+# [workspace-to-monitor-force-assignment]
+# 1 = 'main'
+# 2 = 'main'
+# 3 = 'secondary'
